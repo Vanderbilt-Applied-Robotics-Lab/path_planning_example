@@ -36,10 +36,6 @@ ament_target_dependencies(obstacle_example
   geometry_msgs
 )
 
-install(
-  DIRECTORY meshes
-  DESTINATION share/${PROJECT_NAME}
-)
 install(TARGETS obstacle_example
   DESTINATION lib/${PROJECT_NAME})
 
