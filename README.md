@@ -1,4 +1,4 @@
-# registration_example
+# path_planning_example
 Example of adding a box collision object to the planning scene
 
 ## Downloading Code
