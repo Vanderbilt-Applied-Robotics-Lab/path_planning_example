@@ -36,8 +36,8 @@ void ObstacleExample::initMoveGroup()
     move_group_ = std::make_shared<moveit::planning_interface::MoveGroupInterface>(
             shared_from_this(), "rv_3s_arm");
 
-    move_group_ ->setNumPlanningAttempts(100);
-    move_group_ ->setPlanningTime(20.0);
+    move_group_ ->setNumPlanningAttempts(200);
+    move_group_ ->setPlanningTime(30.0);
 }
 
 void ObstacleExample::planMotion()
